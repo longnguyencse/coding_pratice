@@ -1,14 +1,14 @@
 
 public class QueueImpl implements QueueProtocol {
-    public boolean add(Object e) {
+    public <E> boolean add(E e) {
         return false;
     }
 
-    public boolean remove(Object e) {
+    public <E> boolean remove(E e) {
         return false;
     }
 
-    public boolean pop(Object e) {
+    public <E> boolean pop(E e) {
         return false;
     }
 

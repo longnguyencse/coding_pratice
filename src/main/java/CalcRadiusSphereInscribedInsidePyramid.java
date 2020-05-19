@@ -1,13 +1,19 @@
 import java.math.BigDecimal;
 import java.math.MathContext;
+import java.util.Queue;
 
 public class CalcRadiusSphereInscribedInsidePyramid {
-
+    private static final long serialVersionUID = -1;
     private double h, a;
     public CalcRadiusSphereInscribedInsidePyramid(float h, float a) {
         this.h = h;
         this.a = a;
     }
+
+    /**
+     * rs = a*h / (a + sqrt(pow(a,2) + pow(h,2)*4)
+     * @return
+     */
     public float calcRadiusSphereInscribedInside() {
         BigDecimal h = new BigDecimal(Double.toString(this.h));
         BigDecimal a = new BigDecimal(Double.toString(this.a));

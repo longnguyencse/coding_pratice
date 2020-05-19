@@ -1,6 +1,6 @@
 public interface QueueProtocol {
-    public boolean add(Object e);
-    public boolean remove(Object e);
-    public boolean pop(Object e);
+    public <E> boolean add(E e);
+    public <E> boolean remove(E e);
+    public <E> boolean pop(E e);
     public int size();
 }
