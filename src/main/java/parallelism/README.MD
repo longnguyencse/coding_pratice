@@ -1,0 +1,2 @@
+- https://docs.oracle.com/javase/tutorial/collections/streams/parallelism.html
+- http://tutorials.jenkov.com/java-concurrency/concurrency-vs-parallelism.html
